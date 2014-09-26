@@ -13,6 +13,21 @@ package com.m4estro.vc
 			
 		}
 		
+		public function assert(state:Boolean, msg:String):void
+		{
+			
+		}
+		
+		public function log(msg:String, level:String):void
+		{
+			Debug.log(msg, level);
+		}
+		
+		public function destroy():void
+		{
+			
+		}
+		
 	}
 
 }

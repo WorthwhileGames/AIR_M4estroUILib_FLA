@@ -13,6 +13,11 @@ package com.m4estro.vc
 			
 		}
 		
+		public function log(msg:String, level:String):void
+		{
+			Debug.log(msg, level);
+		}
+		
 	}
 
 }
